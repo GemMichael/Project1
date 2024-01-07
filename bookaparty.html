@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakey's Philippines</title>
     <link rel="stylesheet" href="stylee.css">
+    <style>
+        aside {
+            background-color: brown;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,6 +22,32 @@
             <a class="link" href="bookaparty.html"><button>Book a Party</button></a>
         </nav>
     </header>
+
+    <main>
+        <img src="images/book.jpg" alt="Banner">
+    </main>
+
+    <aside>
+        <h1>Wanna book a party?</h1>
+        <p>Make celebrations even more
+            special with Shakey’s!</p>
+
+            <form action="/submit-form" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="name">Full Name:</label>
+                <input type="name" id="name" name="name" required>
+                
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+    </aside>
     <footer>
         <nav>
             <a class="footer-link" href="https://www.facebook.com/ShakeysPH"><button class="footer-button"><img src="images/facebook_logo.png" alt="Facebook"></button></a>
