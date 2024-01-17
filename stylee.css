@@ -1,4 +1,4 @@
-header {
+nav {
     background-color: #000000; 
     color: white; 
     padding: 20px; 
@@ -20,14 +20,6 @@ button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 30px rgba(255, 1, 1, 0.3);
 }
-
-main {
-    background-color: rgb(202, 25, 25);
-    color: white;
-    padding: 150px;
-    text-align: center;
-}
-
 
 .footer {
     background-color: #ffffff;
